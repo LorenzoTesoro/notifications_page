@@ -1,0 +1,36 @@
+/* #region common rules */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* primary */
+    --clr-primary-danger:hsl(1, 90%, 64%);
+    --clr-primary-soft:hsl(219, 85%, 26%);
+
+    /* neutral */
+    --clr-lighter:hsl(0, 0%, 100%);
+    --clr-light-grayish-soft: hsl(210, 60%, 98%);
+    --clr-light-grayish-shade: hsl(211, 68%, 94%);
+    --clr-light-grayish:hsl(205, 33%, 90%);
+    --clr-grayish-soft: hsl(219, 14%, 63%);
+    --clr-dark-grayish-soft:hsl(219, 12%, 42%);
+    --clr-darker:hsl(224, 21%, 14%);
+    
+    --fw-md:500;
+    --fw-lg:800;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* 
+widths:
+- Mobile: 375px
+- Desktop: 1440px 
+*/
+/* (paragraph): 16px | 1 rem font-size */
+/* #endregion common rules */
