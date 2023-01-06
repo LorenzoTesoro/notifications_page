@@ -46,6 +46,9 @@ h1{
 .p_relative{
     position: relative;
 }
+.d_none{
+    display: none;
+}
 /* #endregion utilities */
 
 /*#region main */
