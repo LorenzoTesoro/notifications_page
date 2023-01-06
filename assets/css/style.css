@@ -32,12 +32,14 @@ body{
 img{
     max-width: 100%;
 }
+h1{
+    font-size: 1.425rem;
+}
 /* 
 widths:
 - Mobile: 375px
 - Desktop: 1440px 
 */
-/* (paragraph): 16px | 1 rem font-size */
 /* #endregion common rules */
 
 /*#region main */
@@ -45,7 +47,34 @@ widths:
     background-color: var(--clr-lighter);
     padding:0.75rem;
 }
+.notifications_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page_title{
+    display: flex;
+    align-items: center;
+    gap:0.75rem;
+}
+.cta{
+    color:var(--clr-dark-grayish-soft);
+}
+.notifications_number{
+    background-color: var(--clr-primary-soft);
+    color:var(--clr-lighter);
+    font-weight: var(--fw-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.375rem;
+    width:30px;
+    aspect-ratio: 1;
+    font-size: 0.875rem;
+}
 .notifications{
+    padding-top:1rem;
+    padding-bottom:1rem;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
@@ -64,7 +93,7 @@ widths:
     color:var(--clr-dark-grayish-soft);
 }
 .user{
-    max-width: 50px;
+    max-width: 45px;
     flex-shrink: 0;
 }
 .user_name{
