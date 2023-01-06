@@ -39,12 +39,14 @@ img{
 h1{
     font-size: 1.425rem;
 }
-/* 
-widths:
-- Mobile: 375px
-- Desktop: 1440px 
-*/
 /* #endregion common rules */
+
+/* #region utilities */
+
+.p_relative{
+    position: relative;
+}
+/* #endregion utilities */
 
 /*#region main */
 .container{
@@ -164,5 +166,10 @@ widths:
     .container{
         max-height: 760px;
         border-radius: 1rem;
+    }
+
+    .square{
+        position: absolute;
+        right: 10px;
     }    
 }
