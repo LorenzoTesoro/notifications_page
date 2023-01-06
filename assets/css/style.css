@@ -53,9 +53,11 @@ h1{
 
 /*#region main */
 .container{
+    margin-top:1rem;
+    margin-bottom:1rem;
     background-color: var(--clr-lighter);
     padding:1rem;
-    max-width: 660px;
+    max-width: 680px;
 }
 .notifications_heading{
     display: flex;
