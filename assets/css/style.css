@@ -27,6 +27,10 @@ body{
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: var(--clr-light-grayish);
     font-size: 0.875rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 img{
@@ -45,12 +49,15 @@ widths:
 /*#region main */
 .container{
     background-color: var(--clr-lighter);
-    padding:0.75rem;
+    padding:1rem;
+    max-width: 660px;
 }
 .notifications_heading{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
 }
 .page_title{
     display: flex;
@@ -131,3 +138,31 @@ widths:
     max-width: 50px;
 }
 /* #endregion main */
+
+/* hover effects */
+
+.cta, .user_name, .post_name, .group_name, .message, .square :hover{
+    cursor: pointer;
+}
+
+.user_name:hover{
+    color:var(--clr-primary-soft);
+}
+.cta:hover{
+    color:var(--clr-primary-soft);
+}
+.post_name:hover{
+    color:var(--clr-primary-soft);
+}
+.message:hover{
+    background-color: var(--clr-light-grayish-shade);
+}
+
+/* responsive */
+
+@media screen and (min-width:768px) {
+    .container{
+        max-height: 760px;
+        border-radius: 1rem;
+    }    
+}
